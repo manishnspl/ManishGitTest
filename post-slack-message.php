@@ -1,12 +1,12 @@
 <?php
 
- // slack custom message code added
+ // slack custom message code added New
 
     // Create a constant to store your Slack URL
-    define('SLACK_WEBHOOK', 'https://hooks.slack.com/services/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');
+    define('SLACK_WEBHOOK', 'https://hooks.slack.com/services/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');
 
     // Make message
-    $message = ['payload' => json_encode(['text' => 'Message to Slack'])];
+    $message = ['payload' => json_encode(['text' => 'Message to Slack custom'])];
 
     // Use curl to send your message
     $c = curl_init(SLACK_WEBHOOK);
