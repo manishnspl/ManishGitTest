@@ -1,7 +1,4 @@
 <?php
-
-    // slack custom message code added
-
     // Create a constant to store your Slack URL
     define('SLACK_WEBHOOK', 'https://hooks.slack.com/services/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');
 
