@@ -1,6 +1,6 @@
 <?php
 
-    //Learning slack
+    //Learning slack AGin
     // Create a constant to store Slack URL
     define('SLACK_WEBHOOK', 'https://hooks.slack.com/services/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');
 
