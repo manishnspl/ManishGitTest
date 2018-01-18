@@ -1,11 +1,13 @@
 <?php
-    // Create a constant to store your Slack URL
+
+    //Learning slack
+    // Create a constant to store Slack URL
     define('SLACK_WEBHOOK', 'https://hooks.slack.com/services/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');
 
     // Make message
-    $message = ['payload' => json_encode(['text' => 'Message to Slack custom'])];
+    $message = ['payload' => json_encode(['text' => 'Message to Slack Team'])];
 
-    // Use curl to send your message
+    // Use curl to send message
     $c = curl_init(SLACK_WEBHOOK);
     curl_setopt($c, CURLOPT_SSL_VERIFYPEER, false);
     curl_setopt($c, CURLOPT_POST, true);
